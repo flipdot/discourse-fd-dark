@@ -61,15 +61,6 @@ header.d-header {
     border-bottom: 4px solid $quaternary;
 }
 
-
-
-
-
-
-
-
-
-
 .post-retort {
     background: none;
     border: none;
@@ -93,4 +84,13 @@ header.d-header {
         margin: 0 2px;
         order: 2;
     }
+}
+
+.private-message > .reply-area:before {
+    color: $quaternary;
+    background-color: $danger;
+}
+.private-message > .reply-area:before {
+    color: $quaternary;
+    background-color: $danger;
 }
