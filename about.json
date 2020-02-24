@@ -1,0 +1,45 @@
+{
+  "name": "flipdot rbn",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": "rbn",
+  "theme_version": 1.0,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "OpenSans-Light": "assets/OpenSans-Light.woff2",
+    "OpenSans-Regular": "assets/OpenSans-Regular.woff2",
+    "OpenSans-Bold": "assets/OpenSans-Bold.woff2",
+    "FiraCode-Light": "assets/FiraCode-Light.woff2",
+    "FiraCode-Regular": "assets/FiraCode-Regular.woff2",
+    "FiraCode-Bold": "assets/FiraCode-Bold.woff2"
+  },
+  "color_schemes": {
+    "dark": {
+      "primary": "cccccc",
+      "secondary": "323336",
+      "tertiary": "f5c600",
+      "quaternary": "f5c600",
+      "header_background": "323336",
+      "header_primary": "cccccc",
+      "highlight": "f4d349",
+      "danger": "e45735",
+      "success": "66ed38",
+      "love": "e11c1c"
+    },
+    "light": {
+      "primary": "161618",
+      "secondary": "ffffff",
+      "tertiary": "f5c600",
+      "quaternary": "f5c600",
+      "header_background": "ffffff",
+      "header_primary": "161618",
+      "highlight": "32746d",
+      "danger": "e45735",
+      "success": "66ed38",
+      "love": "e11c1c"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

@@ -1,0 +1,23 @@
+.d-header .contents {
+    margin: 4px 0;
+    margin-bottom: 0px;
+}
+
+.d-header .icons {
+    margin-top: 6px;
+}
+
+.d-header .icons .badge-notification {
+    top: 0px;
+}
+
+.header-dropdown-toggle.active {
+    background-color: $quaternary
+}
+.header-dropdown-toggle.active>a {
+    background-color: $quaternary !important;
+}
+
+#main-outlet {
+    padding-top: 72px;
+}
