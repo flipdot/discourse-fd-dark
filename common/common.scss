@@ -78,15 +78,34 @@ header.d-header {
     margin-bottom: 5px;
 }
 
+.d-header-icons .icon {
+    border-radius: 10px;
+}
+
+.d-header-icons .d-icon {
+    color: $primary;
+}
+
+.d-header-icons .icon:hover .d-icon {
+    color: $primary;
+}
+.header-dropdown-toggle.active {
+    background-color: #ffffff00;
+}
+
+.menu-panel.slide-in {
+    top: 66px !important;
+}
+
 #main-outlet {
     background-color: rgba($secondary, .8);
 }
 
 blockquote {
-    border-left: 5px solid $quaternary;
+    border-left: 5px solid $quaternary !important;
 }
 aside.quote .title {
-    border-left: 5px solid $quaternary;
+    border-left: 5px solid $quaternary !important;
 }
 
 .post-retort {

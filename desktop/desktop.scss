@@ -8,3 +8,6 @@
 .header-dropdown-toggle.active>a {
     background-color: $quaternary !important;
 }
+.header-dropdown-toggle.active svg {
+    color: $header_background !important;
+}
