@@ -64,6 +64,9 @@ header.d-header {
 blockquote {
     border-left: 5px solid $quaternary;
 }
+aside.quote .title {
+    border-left: 5px solid $quaternary;
+}
 
 .post-retort {
     background: none;
