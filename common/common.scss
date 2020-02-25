@@ -55,10 +55,27 @@ code {
 }
 
 header.d-header {
-    box-shadow: none;
     height: initial;
     padding-top: 0;
     border-bottom: 4px solid $quaternary;
+}
+
+.d-header .contents {
+    margin: 5px 0;
+}
+
+.d-header .title {
+    margin-top: -5px;
+}
+
+.d-header .panel {
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+
+.d-header .icons {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 blockquote {
