@@ -90,7 +90,7 @@ header.d-header {
     color: $primary;
 }
 .header-dropdown-toggle.active {
-    background-color: #ffffff00;
+    background-color: #ffffff00 !important;
 }
 
 .menu-panel.slide-in {
