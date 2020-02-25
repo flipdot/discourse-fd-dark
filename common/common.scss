@@ -78,6 +78,10 @@ header.d-header {
     margin-bottom: 5px;
 }
 
+#main-outlet {
+    background-color: rgba($secondary, .8);
+}
+
 blockquote {
     border-left: 5px solid $quaternary;
 }
