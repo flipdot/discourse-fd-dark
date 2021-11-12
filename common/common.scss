@@ -97,8 +97,8 @@ header.d-header {
     top: 66px !important;
 }
 
-#main-outlet {
-    background-color: rgba(var(--secondary), .8);
+.topic-body {
+    background-color: var(--secondary);
 }
 
 blockquote {
