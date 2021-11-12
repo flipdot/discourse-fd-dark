@@ -98,7 +98,7 @@ header.d-header {
 }
 
 #main-outlet {
-    background-color: rgba($secondary, .8);
+    background-color: rgba(var(--secondary), .8);
 }
 
 blockquote {
