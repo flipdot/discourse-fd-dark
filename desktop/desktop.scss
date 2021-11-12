@@ -3,11 +3,11 @@
 }
 
 .header-dropdown-toggle.active {
-    background-color: $quaternary
+    background-color: var(--quaternary)
 }
 .header-dropdown-toggle.active>a {
-    background-color: $quaternary !important;
+    background-color: var(--quaternary) !important;
 }
 .header-dropdown-toggle.active svg {
-    color: $header_background !important;
+    color: var(--header_background) !important;
 }

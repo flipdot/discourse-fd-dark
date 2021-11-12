@@ -57,7 +57,7 @@ code {
 header.d-header {
     height: initial;
     padding-top: 0;
-    border-bottom: 4px solid $quaternary;
+    border-bottom: 4px solid var(--quaternary);
 }
 
 .d-header .contents {
@@ -83,11 +83,11 @@ header.d-header {
 }
 
 .d-header-icons .d-icon {
-    color: $primary;
+    color: var(--primary);
 }
 
 .d-header-icons .icon:hover .d-icon {
-    color: $primary;
+    color: var(--primary);
 }
 .header-dropdown-toggle.active {
     background-color: #ffffff00 !important;
@@ -102,10 +102,10 @@ header.d-header {
 }
 
 blockquote {
-    border-left: 5px solid $quaternary !important;
+    border-left: 5px solid var(--quaternary) !important;
 }
 aside.quote .title {
-    border-left: 5px solid $quaternary !important;
+    border-left: 5px solid var(--quaternary) !important;
 }
 
 .post-retort {
@@ -134,10 +134,10 @@ aside.quote .title {
 }
 
 .private-message > .reply-area:before {
-    color: $quaternary;
-    background-color: $danger;
+    color: var(--quaternary);
+    background-color: var(--danger);
 }
 .private-message > .reply-area:before {
-    color: $quaternary;
-    background-color: $danger;
+    color: var(--quaternary);
+    background-color: var(--danger);
 }
