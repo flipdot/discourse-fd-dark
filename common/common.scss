@@ -48,6 +48,7 @@
 
 body {
     font-family: OpenSans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary);
 }
 
 code {
@@ -97,8 +98,8 @@ header.d-header {
     top: 66px !important;
 }
 
-.topic-body {
-    background-color: var(--secondary);
+#main-outlet {
+    background-color: rgba(var(--secondary-rgb), .8);
 }
 
 blockquote {
